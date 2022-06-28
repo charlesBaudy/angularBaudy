@@ -1,0 +1,9 @@
+<h3>Liste des personnes</h3>
+<ul [ngClass]="{hidden: hide==true}">
+  <li *ngFor="let user of users$ | async">
+    <span>{{ user.name }} </span>
+    <span>{{ user.email }}</span>
+  </li>
+</ul>
+<button (click)="onHide()">cacher</button>
+<button (click)="onShow()">Monter</button>

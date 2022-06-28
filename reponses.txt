@@ -1,0 +1,21 @@
+1. pour lancer le serveur : ng serve
+2. l'url de notre site : http://localhost:4200/
+3. le fichier modifié : app.component.html
+4. un composant possede 3 fichier, un .html, un .typescript et un .css
+5. pour creer le composant header : ng g c header
+6. pour creer le composant footer : ng g c footer
+7. pour creer un service : ng generate service data
+8. le fichier de declararion est app.module.ts
+9. pour generer une application angular : ng new <nom>
+10. Angular utilse typescript
+11. Chrome utilise javascript
+12.
+13. C'est une variable qui emet des valeurs dans le temps
+14.
+15. pipe() sert a appliquer des operateurs à un observable
+16. map() permet de transformer les emissions d'un observable
+17. l'architecture spa permet de ne pas recharger la page et donc etre plus performant
+18. styles.css, app.component.css, ...
+19. package.json est un fichier de configuration pour les dependances de l'application
+20. @Input sert à un composant parent de mettre a jour les données dans le composant enfant
+
